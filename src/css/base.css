@@ -16,10 +16,7 @@ body {
      background: var(--background-color) url("../images/bg-mobile.svg") no-repeat;
     background-size: contain;
     background-position: center -50px;
-
-
     height: 100vh;
-    margin: 0 auto;
   }
 
   .logo-img {
@@ -32,7 +29,7 @@ body {
     padding: 50px;
     gap: 20px;  
   }
-
+  
   .main-right,
   .main-left {
     margin: 0 auto;
@@ -47,19 +44,20 @@ body {
   }
 
   .sub-tittle {
-    font-size: 2em;
+    font-size: 1.5rem;
     text-align: center;
     justify-content: center;
-    margin: 20px 0
+    margin: 0 auto;
   }
 
   .p-text {
     text-align: center;
+    font-size: 1rem;
     margin: 30px;   
   }
 
   .button {
-    margin: 20px auto;
+    margin: 0 auto;
     width: 250px;
   }
 
