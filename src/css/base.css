@@ -8,3 +8,56 @@ body {
   max-width: 1300px;
   font-family: Poppins, sans-serif;
 }
+
+@media (max-width: 950px) {
+  body {
+    display: flex;
+    flex-direction: column;
+     background: var(--background-color) url("../images/bg-mobile.svg") no-repeat;
+    background-size: contain;
+    background-position: center -50px;
+
+
+    height: 100vh;
+    margin: 0 auto;
+  }
+
+  .logo-img {
+    width: 200px;
+   }
+
+  .container {
+    max-width: 100%;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+  }
+
+  .main-right .example-img {
+    width: 100%;
+    height: auto;
+    max-height: 500px ;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .sub-tittle {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0
+  }
+
+  .p-text {
+    text-align: center;
+    margin: 30px;   
+  }
+
+  .button {
+    margin: 20px auto;
+    width: 250px;
+  }
+
+  .site-footer {
+    justify-content: center;
+  }
+}
