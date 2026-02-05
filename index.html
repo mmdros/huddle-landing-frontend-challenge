@@ -23,6 +23,10 @@
 <body>
   <header class="logo">
     <h1><a><img class="logo-img" src="src/images/logo.svg" alt="logo-huddle"></a></h1>
+        <select id="language-select">
+      <option value="pt">🇧🇷 Português</option>
+      <option value="en">🇺🇸 English</option>
+    </select>
   </header>
   <main class="container">
     <section class="main-right">
@@ -30,11 +34,11 @@
     </section>
     <section class="main-left">
       <div class="full-text">
-     <h2 class="sub-tittle">Build the Community Your Fans Will Love</h2>
-      <p class="p-text">Huddle re-imagines the way we build comunities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+     <h2 class="sub-tittle" data-i18n="title">Build the Community Your Fans Will Love</h2>
+      <p class="p-text" data-i18n="subtitle">Huddle re-imagines the way we build comunities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
       </div>
       <div class="button">
-      <p class="button-register"><a href="#">Register</a></p>
+      <p class="button-register"><a href="#" data-i18n="button">Register</a></p>
       </div>
     </section>
   </main>
@@ -53,5 +57,6 @@
 
 </ul>
   </footer>
+  <script src="./src/js/i18n.js"></script>
 </body>
 </html>
