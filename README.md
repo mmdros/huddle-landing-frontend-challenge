@@ -39,7 +39,7 @@ A seguir, estão as imagens de referência do design proposto pelo desafio.
 A seguir, algumas ideias de melhorias e funcionalidades que podem ser implementadas no futuro:
 
 - **Modo Escuro (Dark Mode):** Implementação de um tema de cores alternativo para melhorar a experiência do usuário em ambientes de baixa luminosidade, utilizando variáveis CSS para facilitar a alternância.
-- **Tradução da Página:** Adição de funcionalidade de tradução para outros idiomas, permitindo que usuários de diferentes regiões possam consumir o conteúdo mais facilmente.
+- **Tradução da Página:** Adição de funcionalidade de tradução para outros idiomas, permitindo que usuários de diferentes regiões possam consumir o conteúdo mais facilmente. (Adicionado 05/02/2026)
 
 ## 🛠️ Tecnologias Utilizadas
 
